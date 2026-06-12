@@ -53,3 +53,5 @@ Melhorias futuras
 - Adicionar validação mais completa no checkout
 - Melhorar responsividade em telas menores
 
+ 🔗 Acesse o projeto
+https://projetoecommerce.onrender.com
