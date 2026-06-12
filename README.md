@@ -54,4 +54,4 @@ Melhorias futuras
 - Melhorar responsividade em telas menores
 
  🔗 Acesse o projeto
-https://projetoecommerce.onrender.com
+ - https://projetoecommerce.onrender.com
