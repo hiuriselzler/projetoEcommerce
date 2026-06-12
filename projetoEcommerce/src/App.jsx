@@ -1,16 +1,18 @@
 import {Route, Routes} from "react-router-dom"
 import './App.css'
+import Home from "./pages/Home";
+import Auth from "./pages/Auth";
+import Checkout from "./pages/Checkout";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return <div className = "app">
-    <Routes>
-      <Route path = "/" />
-      <Route path = "/auth" />
-      <Route path = "/checkout" />
-    </Routes>
-  </div>;
-  
+  return (
+    <div className = "app">
+      <Routes>
+        <Route path = "/"  element= {<Home />} />
+        <Route path = "/auth" element= {<Auth />} />
+        <Route path = "/checkout" element ={<Checkout />} />
+      </Routes>
+    </div>
+  );
 }
 export default App
