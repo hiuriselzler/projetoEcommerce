@@ -5,14 +5,14 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-brand">
-                ShopHub
+                    ShopHub
                 </Link>
                 <div className="navbar-links">
                     <Link to="/" className="navbar-link">
-                    Home
+                        Home
                     </Link>
                     <Link to="/checkout"  className="navbar-link" >
-                    Checkout
+                        Cart
                     </Link>
                 </div>
                 <div className="navbar-auth">
